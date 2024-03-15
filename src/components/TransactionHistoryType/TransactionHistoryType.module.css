@@ -1,0 +1,19 @@
+.type {
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    padding: 10px;
+    text-transform: capitalize;
+    border: 2px solid black;
+}
+
+.string:nth-child(odd) {
+    background-color: #f5f4f5;
+}
+
+.string:nth-child(even) {
+    background-color: #9c9a9c;
+}

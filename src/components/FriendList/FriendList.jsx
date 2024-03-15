@@ -3,8 +3,7 @@ import css from './FriendList.module.css';
 
 
 const FriendList = ({friends}) => {
-    console.log('friends: ', friends);
-
+    
   return (
       <ul className={css.friendList}>
         {friends.map((friend) => {
